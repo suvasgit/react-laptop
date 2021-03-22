@@ -1,16 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-import Navbar from './components/Navbar';
-import Carosuel from './components/Carosuel';
-import Products from './components/Products';
+import React from 'react'
+import Routes from './Routes'
 
 function App() {
   return (
-    <div className="App">
-      <Navbar/>
-      <Carosuel/>
-      <Products/>
-    </div>
+    <>
+     <Routes/>
+    </>
   );
 }
 
