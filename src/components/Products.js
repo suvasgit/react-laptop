@@ -4,7 +4,7 @@ import './Style.css';
 function Products() {
     return (
         <>
-           <div classNameName="container">
+           <div className="container">
          <div className="row row-cols-1 row-cols-md-4 g-5 mt-1 mb-3" >
   <div className="col">
     <div className="card shadow-lg">
