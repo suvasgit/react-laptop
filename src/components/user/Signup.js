@@ -30,8 +30,8 @@ const Signup = () => {
                         <input type="password" className="form-control" placeholder="confirm password"/>
                     </div>
 
-                    <div className="col-6 mt-2 offset-md-2">
-                    <button className="btn btn-primary">Signup</button>
+                    <div className="col-8 mt-2 offset-md-2">
+                    <button className="btn btn-primary form-control">Signup</button>
                     </div>
                 </form>
 

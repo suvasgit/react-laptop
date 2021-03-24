@@ -21,8 +21,8 @@ const Signin=()=> {
             <input type="password" className="form-control" placeholder="password"/>
         </div>
 
-        <div className="col-6 mt-2 offset-md-2">
-        <button className="btn btn-primary">Signin</button>
+        <div className="col-8 mt-2 offset-md-2">
+        <button className="btn btn-primary form-control">Signin</button>
         </div>
     </form>
 
