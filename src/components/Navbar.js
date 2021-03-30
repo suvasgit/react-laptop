@@ -38,9 +38,14 @@ function Navbar() {
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
           <Link class="nav-link active text-white" aria-current="page" to="/">Home</Link>
+          
         </li>
         <li className="nav-item">
           <Link className="nav-link text-white" to="/offer">Offer</Link>
+        </li>
+
+        <li className="nav-item">
+          <Link className="nav-link text-white" to="/deals">Deals</Link>
         </li>
         <li className="nav-item dropdown">
           <Link class="nav-link dropdown-toggle text-white" to="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
