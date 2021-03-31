@@ -5,6 +5,7 @@ import Offer from './components/Offer';
 import Signup from './components/user/Signup';
 import Signin from './components/user/Signin';
 import Deals from './components/Deals';
+import Contact from './components/Contact';
 
 const Routes=()=> {
     return (
@@ -12,9 +13,10 @@ const Routes=()=> {
            <Switch>
            <Route exact path="/" component={Home}/>
            <Route exact path="/offer" component={Offer}/>
+           <Route exact path="/deals"  component={Deals}/>
+           <Route exact path="/contact" component={Contact}/>
            <Route exact path="/signup" component={Signup}/>
            <Route exact path="/signin" component={Signin}/>
-           <Route exact path="/deals"  component={Deals}/>
            </Switch>
        </Router>
     )
